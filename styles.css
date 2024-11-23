@@ -1,0 +1,140 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5858;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(155, 31, 31, 0.1);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+header.personal-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header.personal-info h1 {
+    margin: 10px 0;
+    font-size: 2em;
+    color: #333;
+}
+
+header.personal-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+header.personal-info a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.download {
+    padding: 10px 15px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header.personal-info a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #444;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section p, section ul {
+    margin: 0;
+    padding: 0;
+}
+
+section p span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b30000;
+    font-weight: bolder;
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section ul li {
+    background: #e9ecef;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.editable {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#shareSection {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+#shareableLink {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

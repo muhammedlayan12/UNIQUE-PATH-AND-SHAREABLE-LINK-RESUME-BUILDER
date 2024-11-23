@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form id="resumeForm">
+            <h2>Personal Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span style="color:RED;" id="nameError"></span>
+    
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="\d{11}" required>
+    
+            <h2>About Me</h2>
+            <textarea id="aboutMe" name="aboutMe" required></textarea>
+    
+            <h2>Education</h2>
+            <textarea id="education" name="education" required></textarea>
+    
+            <h2>Skills (Comma Seprated)</h2>
+            <input type="text" id="skills" name="skills" required>
+    
+            <h2>Work Experience</h2>
+            <textarea id="workExperience" name="workExperience" required></textarea>
+    
+            <h2>Projects (Comma Seprated)</h2>
+            <textarea id="projects" name="projects" required></textarea>
+    
+            <button type="submit">Generate Resume</button>
+        </form>
+    
+        <div id="resumeOutput" class="resume"></div>
+        <div id="shareSection" style="display: none;">
+            <h3>Shareable Link:</h3>
+            <input type="text" id="shareableLink" readonly>
+            <button id="copyLink">Copy Link</button>
+            <a id="downloadPDF" href="#" class="download">Download as PDF</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
